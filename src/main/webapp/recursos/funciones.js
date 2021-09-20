@@ -1,6 +1,6 @@
 function validarForma(forma){
     var usuario = forma.usuario;
-    if(usuario.value == "" || usuario.value == "Escribir usuario" ){
+    if(usuario.value === "" || usuario.value === "Escribir usuario" ){
         alert("Dame un nombre de usuario");
         usuario.focus();
         usuario.select();
@@ -8,7 +8,7 @@ function validarForma(forma){
     }
     
     var password = forma.password;
-    if(password.value == "" || password.value.length < 5){
+    if(password.value === "" || password.value.length < 5){
         alert("Dame una contraseña de al menos 5 caracteres")
         password.focus();
         password.select();
@@ -40,7 +40,7 @@ function validarForma(forma){
     }
     
     var ocupacion = forma.ocupacion;
-    if(ocupacion.value == ""){
+    if(ocupacion.value === ""){
         alert("Selecciona al menos una ocupacion");
         return false; 
     }
