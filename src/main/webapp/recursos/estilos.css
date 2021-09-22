@@ -5,18 +5,14 @@ body, .default{
     color: #669;
 }
 
-.perritosJamon{
-    background-color: #26619c;
-}
-
-#padre-servlet {
+#topTabla{
     background-color: #9c2626;
-    justify-content: center;
 }
 
-.columna_servlet{
-    
+.topTabla{
+    background-color: #9c2630;
 }
+
 
 #enfasis-columnas{
     margin: 45px;
