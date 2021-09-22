@@ -5,6 +5,19 @@ body, .default{
     color: #669;
 }
 
+.perritosJamon{
+    background-color: #26619c;
+}
+
+#padre-servlet {
+    background-color: #9c2626;
+    justify-content: center;
+}
+
+.columna_servlet{
+    
+}
+
 #enfasis-columnas{
     margin: 45px;
     width: 480px;
@@ -39,3 +52,4 @@ body, .default{
     color: #339;
     background: #eff2ff;
 }
+
