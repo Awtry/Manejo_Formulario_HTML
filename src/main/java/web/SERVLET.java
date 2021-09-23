@@ -38,8 +38,8 @@ public class SERVLET extends HttpServlet {
                 out.print("</div>");
             out.print("</div>");
             out.print("<div class='container'>");
-               //out.print("<div class='container' >");
-               out.print("<div class='jumbotron'  style = 'background-color: #664E88' text-align='center';> ");
+               out.print("<div class='container-fluid' >");
+               //out.print("<div class='jumbotron'  style = 'background-color: #664E88' text-align='center';> ");
 
                // Tabla solamente
                out.print("<table class='table'>");
@@ -67,8 +67,9 @@ public class SERVLET extends HttpServlet {
 
                out.print("<td>" + ocupacion + "</td>");
 
+              
                if (musica != null) {
-                   out.print("<tr> <td>");
+                   out.print("<td>");
                    for (int i = 0; i < musica.length; i++) {
                        out.print(musica[i] + "/");
                    }
@@ -90,7 +91,7 @@ public class SERVLET extends HttpServlet {
                out.print("</div>");
               //out.print("</div>");
             
-        out.print("</div>");
+       // out.print("</div>");
         out.print("</div>");
         
         
